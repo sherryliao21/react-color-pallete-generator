@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 @layer components {
-  
+  .app-title {
+    @apply flex font-serif font-bold text-4xl mt-16 text-gray-700 tracking-wider
+  }
+  .swatchbook {
+    @apply text-red-400 h-8 ml-4
+  }
 }
