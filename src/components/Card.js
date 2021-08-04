@@ -14,7 +14,7 @@ const Card = ({ pallete }) => {
   return (
     <div class="card-container">
       <div class="color" style={{ backgroundColor: `#${hex}` }}></div>
-      <CopyBtn hex={ hex }/>
+      <CopyBtn hex={ hex } />
       <div class="hex">#{ hex }</div>
     </div>
   )

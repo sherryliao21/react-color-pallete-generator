@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import ColorPallete from './components/ColorPallete';
 import GenerateBtn from './components/GenerateBtn';
 import Description from './components/Description';
@@ -28,11 +28,25 @@ function App() {
     console.log(colorPallete)
     setPallete(colorPallete)
   }
+
+  useEffect(() => {
+    const handleSpacebar = (event) => {
+       if (event.keyCode === 32) {
+        onClick()
+      }
+    };
+    window.addEventListener('keydown', handleSpacebar);
+
+    return () => {
+      window.removeEventListener('keydown', handleSpacebar);
+    };
+  }, [])
+
   return (
     <div className="App" class="app">
       <Header />
       <ColorPallete pallete={ pallete }/>
-      <GenerateBtn onClick={ onClick }/>
+      <GenerateBtn onClick={onClick}/>
       <Description />
       <Footer />
     </div>
