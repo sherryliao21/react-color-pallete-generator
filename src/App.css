@@ -5,4 +5,10 @@ body {
   align-items: center;
 }
 
+.App {
+  display: flex-column;
+  justify-content: center;
+  align-items: center;
+}
+
 

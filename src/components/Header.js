@@ -5,9 +5,11 @@ import { faFillDrip } from '@fortawesome/free-solid-svg-icons'
 
 
 const Header = () => {
+  const title = 'Color Pallete Generator'
+
   return (
     <div>
-      <h1 class="app-title">Color Pallete Generator <FontAwesomeIcon icon={faFillDrip} class="swatchbook"/></h1>
+      <h1 class="app-title">{ title }<FontAwesomeIcon icon={ faFillDrip } class="swatchbook"/></h1>
     </div>
   )
 }
