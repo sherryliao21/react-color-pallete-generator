@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './App.css';
 import ColorPallete from './components/ColorPallete';
 import GenerateBtn from './components/GenerateBtn';
 import Description from './components/Description';
@@ -8,8 +7,15 @@ import Header from './components/Header';
 import axios from 'axios'
 
 function App() {
-  const [pallete, setPallete] = useState('rgb(0, 0, 0)')
-
+  // default colors
+  const [pallete, setPallete] = useState([
+    [54, 38, 39],
+    [191, 78, 75],
+    [245, 166, 159],
+    [223, 184, 147],
+    [96, 89, 85]
+  ])
+  // generate color
   const onClick = async() => {
     const url = 'http://colormind.io/api/'
     const data = {
