@@ -12,7 +12,7 @@
   }
   /* Header */
   .app-title {
-    @apply flex justify-center font-serif font-bold text-4xl mt-16 tracking-wider text-teal-blue
+    @apply flex justify-center font-serif font-bold text-4xl mt-12 tracking-wider text-teal-blue
   }
   .swatchbook {
     @apply text-red-400 h-8 ml-4
@@ -50,5 +50,16 @@
   /* Description */
   .description {
     @apply text-gray-500 text-lg mt-4 flex items-center justify-center
+  }
+
+  /* Footer */
+  .footer {
+    @apply bg-teal-blue-dark text-beige h-12 w-screen flex justify-center items-center absolute bottom-0 left-0
+  }
+  .footer-text {
+    @apply flex justify-center
+  }
+  .github-logo {
+    @apply h-6 text-beige ml-4
   }
 }

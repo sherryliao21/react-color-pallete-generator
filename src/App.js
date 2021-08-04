@@ -34,12 +34,12 @@ function App() {
        if (event.keyCode === 32) {
         onClick()
       }
-    };
-    window.addEventListener('keydown', handleSpacebar);
+    }
+    window.addEventListener('keypress', handleSpacebar)
 
-    return () => {
-      window.removeEventListener('keydown', handleSpacebar);
-    };
+    // return () => {
+    //   window.removeEventListener('keydown', handleSpacebar)
+    // }
   }, [])
 
   return (
