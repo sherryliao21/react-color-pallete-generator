@@ -2,7 +2,6 @@
   "name": "color-palette-generator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://sherryliao21.github.io/react-color-pallete-generator",
   "dependencies": {
     "@craco/craco": "^6.2.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
