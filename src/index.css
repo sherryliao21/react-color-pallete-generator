@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+  /* App */
+  .app {
+    @apply flex-col items-center justify-center
+  }
   /* Header */
   .app-title {
     @apply flex justify-center font-serif font-bold text-4xl mt-16 tracking-wider text-teal-blue
@@ -21,7 +25,7 @@
     @apply bg-white h-80 w-56 rounded-lg flex-col items-center shadow-md
   }
   .color {
-    @apply h-56 w-52 bg-black m-2
+    @apply h-56 w-52 bg-black m-2 shadow-sm
   }
   .hex {
     @apply text-2xl font-bold text-gray-600 flex justify-center pt-6

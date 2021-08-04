@@ -1,9 +1,9 @@
 import React from 'react'
 
-const GenerateBtn = () => {
+const GenerateBtn = ({ onClick }) => {
   return (
     <div class="btn-container">
-      <button class="btn">Generate</button>
+      <button class="btn" onClick={ onClick }>Generate</button>
     </div>
   )
 }
