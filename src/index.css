@@ -5,19 +5,20 @@
 @layer components {
   /* Header */
   .app-title {
-    @apply flex justify-center font-serif font-bold text-4xl mt-16 tracking-wider
+    @apply flex justify-center font-serif font-bold text-4xl mt-16 tracking-wider text-teal-blue
   }
   .swatchbook {
     @apply text-red-400 h-8 ml-4
   }
+
   /* ColorPallete */
   .pallete-container {
-    @apply flex space-x-8 mt-28
+    @apply flex space-x-8 mt-20
   }
 
   /* Card */
   .card-container {
-    @apply bg-white h-80 w-56 rounded-lg flex-col items-center
+    @apply bg-white h-80 w-56 rounded-lg flex-col items-center shadow-md
   }
   .color {
     @apply h-56 w-52 bg-black m-2
@@ -26,4 +27,16 @@
     @apply text-2xl font-bold text-gray-600 flex justify-center pt-6
   }
 
+  /* GenerateBtn */
+  .btn-container {
+    @apply flex items-center justify-center
+  }
+  .btn {
+    @apply text-white bg-teal-blue h-16 w-72 rounded-lg mt-20 shadow-md text-xl font-serif tracking-wide
+  }
+
+  /* Description */
+  .description {
+    @apply text-gray-500 text-lg mt-4 flex items-center justify-center
+  }
 }

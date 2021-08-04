@@ -2,8 +2,8 @@ import React from 'react'
 
 const GenerateBtn = () => {
   return (
-    <div>
-      
+    <div class="btn-container">
+      <button class="btn">Generate</button>
     </div>
   )
 }
