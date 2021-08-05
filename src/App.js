@@ -17,7 +17,7 @@ function App() {
   ])
   // generate color
   const onClick = async() => {
-    const url = 'http://colormind.io/api/'
+    const url = 'https://cors-anywhere.herokuapp.com/http://colormind.io/api/'
     const data = {
       model : "default",
     }
