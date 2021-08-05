@@ -35,7 +35,7 @@ function App() {
         onClick()
       }
     }
-    window.addEventListener('keypress', handleSpacebar)
+    window.addEventListener('keyup', handleSpacebar)
 
     // return () => {
     //   window.removeEventListener('keydown', handleSpacebar)
