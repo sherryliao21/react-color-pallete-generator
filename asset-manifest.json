@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.3c31d011.chunk.css",
-    "main.js": "/static/js/main.b1e7a41f.chunk.js",
-    "main.js.map": "/static/js/main.b1e7a41f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8f22c4d0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8f22c4d0.js.map",
-    "static/js/2.f35bb973.chunk.js": "/static/js/2.f35bb973.chunk.js",
-    "static/js/2.f35bb973.chunk.js.map": "/static/js/2.f35bb973.chunk.js.map",
-    "static/js/3.3a52fc56.chunk.js": "/static/js/3.3a52fc56.chunk.js",
-    "static/js/3.3a52fc56.chunk.js.map": "/static/js/3.3a52fc56.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.3c31d011.chunk.css.map": "/static/css/main.3c31d011.chunk.css.map",
-    "static/js/2.f35bb973.chunk.js.LICENSE.txt": "/static/js/2.f35bb973.chunk.js.LICENSE.txt"
+    "main.css": "/react-color-pallete-generator/static/css/main.3c31d011.chunk.css",
+    "main.js": "/react-color-pallete-generator/static/js/main.b1e7a41f.chunk.js",
+    "main.js.map": "/react-color-pallete-generator/static/js/main.b1e7a41f.chunk.js.map",
+    "runtime-main.js": "/react-color-pallete-generator/static/js/runtime-main.049577c0.js",
+    "runtime-main.js.map": "/react-color-pallete-generator/static/js/runtime-main.049577c0.js.map",
+    "static/js/2.f35bb973.chunk.js": "/react-color-pallete-generator/static/js/2.f35bb973.chunk.js",
+    "static/js/2.f35bb973.chunk.js.map": "/react-color-pallete-generator/static/js/2.f35bb973.chunk.js.map",
+    "static/js/3.3a52fc56.chunk.js": "/react-color-pallete-generator/static/js/3.3a52fc56.chunk.js",
+    "static/js/3.3a52fc56.chunk.js.map": "/react-color-pallete-generator/static/js/3.3a52fc56.chunk.js.map",
+    "index.html": "/react-color-pallete-generator/index.html",
+    "static/css/main.3c31d011.chunk.css.map": "/react-color-pallete-generator/static/css/main.3c31d011.chunk.css.map",
+    "static/js/2.f35bb973.chunk.js.LICENSE.txt": "/react-color-pallete-generator/static/js/2.f35bb973.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8f22c4d0.js",
+    "static/js/runtime-main.049577c0.js",
     "static/js/2.f35bb973.chunk.js",
     "static/css/main.3c31d011.chunk.css",
     "static/js/main.b1e7a41f.chunk.js"
